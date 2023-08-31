@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let input = prompt("Nhập vào chuỗi kí tự bất kì");
+        function isPalindrome(str) {
+
+  str = str.toLowerCase().replace(/[a-ZA-Z0-9]/g, "");
+
+}
+        console.log(isPalindrome(input));
+console.log(isPalindrome("racecar")); // true
+console.log(isPalindrome("hello")); // false
+console.log(isPalindrome("A man, a plan, a canak, Panam!")); // true
+    </script>
+</body>
+</html>
